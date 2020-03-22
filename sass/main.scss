@@ -1,0 +1,68 @@
+
+$mainfont: "Helvetica", "Arial", sans-serif;
+
+//colors
+$dark-wood: #855E42;
+$clear-wood: #D2AB6F;
+$medium-wood: #B48D51;
+
+$square-side: 100px;
+$rook-width-proportion: 0.56;
+$rook-height-proportion: 0.7;
+//https://www.computerhope.com/cgi-bin/htmlcolor.pl?c=966F33
+
+
+body {
+	font-family: $mainfont; 
+}
+
+.button {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	color: $dark-wood;
+	background-color: $clear-wood;	
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.button:hover {
+	background-color: $medium-wood;	
+}
+
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.square {
+	width: $square-side;
+	height: $square-side;
+	background-color: blue;
+}
+
+
+.dark {
+	background-color: $dark-wood;
+}
+
+.clear {
+	background-color: $clear-wood;
+}
+
+.piece {
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.black-rook {
+	background-image: url("../images/black-rook.png"); 
+	background-size: $rook-width-proportion*$square-side
+		$rook-height-proportion*$square-side;
+}
+.white-rook {
+	background-image: url("../images/white-rook.png"); 
+	background-size: $rook-width-proportion*$square-side
+		$rook-height-proportion*$square-side;
+}

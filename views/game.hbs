@@ -1,0 +1,16 @@
+<div class="board">
+	{{# if board}}
+		{{# each board.row}}
+			<div class="row">
+				{{# each this.square}} 
+					
+					{{#if this.piece}}
+						<div class="square piece {{this.color}} {{this.piece.type}}"></div>
+					{{^}}
+						<div class="square {{this.color}}"></div>
+					{{/if}}
+				{{/each}}
+			</div>
+		{{/each}}
+	{{/if}}
+</div>

@@ -1,0 +1,53 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  color: #855E42;
+  background-color: #D2AB6F;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: #B48D51;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.dark {
+  background-color: #855E42;
+}
+
+.clear {
+  background-color: #D2AB6F;
+}
+
+.piece {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.black-rook {
+  background-image: url("../images/black-rook.png");
+  background-size: 56px 70px;
+}
+
+.white-rook {
+  background-image: url("../images/white-rook.png");
+  background-size: 56px 70px;
+}
+
+/*# sourceMappingURL=main.css.map */
