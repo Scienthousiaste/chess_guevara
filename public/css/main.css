@@ -50,4 +50,54 @@ body {
   background-size: 56px 70px;
 }
 
+.black-king {
+  background-image: url("../images/black-king.png");
+  background-size: 70px 70px;
+}
+
+.white-king {
+  background-image: url("../images/white-king.png");
+  background-size: 70px 70px;
+}
+
+.black-knight {
+  background-image: url("../images/black-knight.png");
+  background-size: 70px 70px;
+}
+
+.white-knight {
+  background-image: url("../images/white-knight.png");
+  background-size: 70px 70px;
+}
+
+.black-queen {
+  background-image: url("../images/black-queen.png");
+  background-size: 73.9px 70px;
+}
+
+.white-queen {
+  background-image: url("../images/white-queen.png");
+  background-size: 73.9px 70px;
+}
+
+.white-bishop {
+  background-image: url("../images/white-bishop.png");
+  background-size: 72.1px 70px;
+}
+
+.black-bishop {
+  background-image: url("../images/black-bishop.png");
+  background-size: 72.1px 70px;
+}
+
+.white-pawn {
+  background-image: url("../images/white-pawn.png");
+  background-size: 45.7px 60px;
+}
+
+.black-pawn {
+  background-image: url("../images/black-pawn.png");
+  background-size: 45.7px 60px;
+}
+
 /*# sourceMappingURL=main.css.map */

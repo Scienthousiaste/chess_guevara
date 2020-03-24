@@ -9,6 +9,21 @@ $medium-wood: #B48D51;
 $square-side: 100px;
 $rook-width-proportion: 0.56;
 $rook-height-proportion: 0.7;
+
+$knight-width-proportion: 0.7;
+$knight-height-proportion: 0.7;
+
+$king-width-proportion: 0.7;
+$king-height-proportion: 0.7;
+
+$queen-width-proportion: 0.739;
+$queen-height-proportion: 0.7;
+
+$bishop-width-proportion: 0.721;
+$bishop-height-proportion: 0.7;
+
+$pawn-width-proportion: 0.457;
+$pawn-height-proportion: 0.6;
 //https://www.computerhope.com/cgi-bin/htmlcolor.pl?c=966F33
 
 
@@ -65,4 +80,55 @@ body {
 	background-image: url("../images/white-rook.png"); 
 	background-size: $rook-width-proportion*$square-side
 		$rook-height-proportion*$square-side;
+}
+
+.black-king {
+	background-image: url("../images/black-king.png"); 
+	background-size: $king-width-proportion*$square-side
+		$king-height-proportion*$square-side;
+}
+.white-king {
+	background-image: url("../images/white-king.png"); 
+	background-size: $king-width-proportion*$square-side
+		$king-height-proportion*$square-side;
+}
+.black-knight {
+	background-image: url("../images/black-knight.png"); 
+	background-size: $knight-width-proportion*$square-side
+		$knight-height-proportion*$square-side;
+}
+.white-knight {
+	background-image: url("../images/white-knight.png"); 
+	background-size: $knight-width-proportion*$square-side
+		$knight-height-proportion*$square-side;
+}
+.black-queen {
+	background-image: url("../images/black-queen.png"); 
+	background-size: $queen-width-proportion*$square-side
+		$queen-height-proportion*$square-side;
+}
+.white-queen {
+	background-image: url("../images/white-queen.png"); 
+	background-size: $queen-width-proportion*$square-side
+		$queen-height-proportion*$square-side;
+}
+.white-bishop {
+	background-image: url("../images/white-bishop.png"); 
+	background-size: $bishop-width-proportion*$square-side
+		$bishop-height-proportion*$square-side;
+}
+.black-bishop {
+	background-image: url("../images/black-bishop.png"); 
+	background-size: $bishop-width-proportion*$square-side
+		$bishop-height-proportion*$square-side;
+}
+.white-pawn {
+	background-image: url("../images/white-pawn.png"); 
+	background-size: $pawn-width-proportion*$square-side
+		$pawn-height-proportion*$square-side;
+}
+.black-pawn {
+	background-image: url("../images/black-pawn.png"); 
+	background-size: $pawn-width-proportion*$square-side
+		$pawn-height-proportion*$square-side;
 }
